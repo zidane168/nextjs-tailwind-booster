@@ -27,6 +27,8 @@ import UsersIcon from "../public/icon/users.png";
 import XIcon from "../public/icon/x.png";
 import PhoneIcon from "../public/icon/phone.png";
 import EmailIcon from "../public/icon/email.png";
+import FireIcon from "../public/icon/fire.png";
+import ListIcon from "../public/icon/list.png";
 
 import LeftArrow from "../public/icon/left-arrow.png";
 import RightArrow from "../public/icon/right-arrow.png";
@@ -41,12 +43,14 @@ const Home: NextPage = () => {
 
       <div className="mx-auto bg-home p-2">
         <div className="w-[1178px] mx-auto">
-          <div
-            id="menu"
-            className="relative z-10 flex text-white  justify-between mt-6 items-center"
-          >
-            <div>
-              Member<span className="text-white font-bold">Booster </span>
+          <div  id="menu" 
+                className="relative z-10 flex text-white  justify-between mt-6 items-center" >
+            <div className="flex items-center space-x-2">
+              <div  > <Image src={FireIcon} alt="fire icon" /> </div> 
+              <div className="flex">
+                <div>Member</div> 
+                <div className="text-white font-bold">Booster </div>
+              </div>
             </div>
 
             <div className="flex justify-center space-x-4 items-center">
@@ -353,7 +357,6 @@ const Home: NextPage = () => {
                     Call Us
                   </div>
                   <div className="mt-[4px] font-[400] text-16px] leading-[24px]">
-                    
                     +852 8888 888
                   </div>
                 </div>
@@ -362,9 +365,8 @@ const Home: NextPage = () => {
 
             <div className="flex items-center">
               <div className="bg-white text-[#424B54] flex space-x-4 p-[40px] rounded-md shadow-lg">
-                <div className="w-50 p-[5px] bg-white">
-                  
-                  <Image src={PhoneIcon} alt="Phone Icon" />
+                <div className="w-50 p-[15px] bg-[#3185FC] flex items-center"> 
+                  <Image src={EmailIcon} alt="Email Icon" />
                 </div>
                 <div className="flex flex-col ">
                   <div className="font-[600] text-[20px] leading-[30px]">
