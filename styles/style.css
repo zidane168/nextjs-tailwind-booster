@@ -1,0 +1,14 @@
+.bg-home {
+    width: 1440px;
+    height: 900px;
+    left: 0px;
+    top: 132px;
+
+    /* background: linear-gradient(288.49deg, #F61E35 35.7%, #BD182F 93.37%) */
+    background: linear-gradient(288.49deg, #e2b515 35.7%, #e19f11 93.37%)
+}
+
+html {
+    font-family: Poppins;
+    font-weight: 300;
+}
